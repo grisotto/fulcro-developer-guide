@@ -1090,14 +1090,14 @@ Create a `deps.edn` file with this content:
 [source]
 -----
 {:paths   ["src/main" "resources"]
- :deps    {org.clojure/clojure    {:mvn/version "1.10.3"}
-           com.fulcrologic/fulcro {:mvn/version "3.5.9"}}
+ :deps    {org.clojure/clojure    {:mvn/version "1.12.0"}
+           com.fulcrologic/fulcro {:mvn/version "3.8.2"}}
 
  :aliases {:dev {:extra-paths ["src/dev"]
-                 :extra-deps  {org.clojure/clojurescript   {:mvn/version "1.10.914"}
-                               thheller/shadow-cljs        {:mvn/version "2.16.9"}
-                               binaryage/devtools          {:mvn/version  "1.0.4"}
-                               cider/cider-nrepl           {:mvn/version "0.27.4"}}}}}
+                 :extra-deps  {org.clojure/clojurescript   {:mvn/version "1.11.132"}
+                               thheller/shadow-cljs        {:mvn/version "2.28.20"}
+                               binaryage/devtools          {:mvn/version  "1.0.7"}
+                               cider/cider-nrepl           {:mvn/version "0.52.0"}}}}}
 -----
 
 [TIP]
